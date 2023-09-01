@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en" class="font-inter">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <title>form-flight-purchase</title>
+</head>
+<body class="">
+    <header class="w-screen  [background-image:url('./images/mobileBG.png')] md:[background-image:url('./images/desktopBG.png')] bg-no-repeat bg-cover ">
+        <div class="hidden  md:block max-w-[90rem] lg:mx-auto">
+            <div class="flex items-center justify-between  px-[2.5rem] py-[1rem]">
+                <div class="text-[1rem] text-white flex flex-col">
+                    <span>+977 9878787845</span>
+                    <span>let’sbookit@gmail.com</span>
+                </div>
+    
+                <div class="w-6/12 lg:w-[30rem]">
+
+                    <ul class="flex items-center">
+                        <li class="flex ">
+                            <span><img src="./images/facebook.svg" alt="facebook"></span>
+                            <span><img src="./images/linkedIn.svg" alt="linked-in"></span>
+                            <span><img src="/images/twitter.svg" alt="twitter"></span>
+                        </li>
+                        <li class="mx-auto">
+                            <div>
+                                <button class="text-white">Log In</button>
+                                <button class="text-white border border-[#E0B100] rounded-full py-[.5rem] px-[1rem] hover:bg-black hover:text-[#E0B100] duration-[.5s]">Sign Up</button>
+                            </div>
+                        </li>
+                        <li class="text-white flex items-center">NRs <span><img class="ml-2" src="/images/arrow.svg" alt="down"></span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="hidden md:block mt-2 w-screen h-[1px] bg-white">
+
+        </div>
+       <div class="md:w-11/12 max-w-[90rem] mx-auto flex items-center justify-between px-2 py-[.5rem] pt-4">
+
+        <div>
+            <span class="flex items-center">
+                <img class="mr-2" src="./images/vectorLogo.png" alt="logo">
+                <span class="font-[600] text-[1rem] leading-[2.5rem] text-[#E0B100]">Let'sBookIt</span>
+            </span> 
+        </div>
+        <div class="md:hidden">
+            <button class="text-white">Log In</button>
+            <button class="text-white border border-[#E0B100] rounded-full py-[.5rem] px-[1rem] hover:bg-black hover:text-[#E0B100] duration-[.5s]">Sign Up</button>
+        </div>
+        <div class="hidden md:block lg:w-[30rem]">
+            <ul class="flex text-white text-[1rem]  gap-[1.5rem]">
+                <li class="font-[600] leading-[1.5rem]"><a href="About.html">About</a></li>
+                <li class=" font-[600] leading-[1.5rem]"><a href="Explore.html">Explore</a></li>
+                <li class="font-[600] leading-[1.5rem]"><a href="Bookings.html">Bookings</a></li>
+                <li class="font-[600] leading-[1.5rem]"><a href="Ticket.html">Find Ticket</a></li>
+                <li class="font-[600] leading-[1.5rem]"><a href="Contact.html">Contact Us</a></li>  
+            </ul>
+        </div>
+       </div>
+        <section class="md:w-11/12 mx-auto">
+            <h1 class="text-white font-[600] text-[3rem] md:w-[40rem] lg:w-[51.75rem] md:text-[5rem] leading-[100%] mt-4 ">Say Yes to The World</h1>
+            <p class="md:w-[40rem] lg:w-[51rem] text-white  text-left mt-[3rem]">Pulvinar rhoncus eget non vulputate varius ullamcorper enim arcu mauris. Pharetra augue amet sit cursus. Leo commodo neque neque praesent. Aliquet tincidunt maecenas elementum eu ipsum erat. Velit quisque morbi nisl accumsan auctor at at nec.</p>
+
+            <div class="bg-[#E0B100] md:w-[40rem] lg:w-[55rem]  md:bg-transparent  p-2 pb-8 w-screen h-max mt-[7rem]">
+                <form class="md:flex flex-wrap justify-around">
+                    <div class="lg:w-[25.1rem] ">
+                        <label for="location" class="text-black md:text-white text-[1rem] font-[600] leading-[1.5rem] ">Departure Airport</label>
+                        <div class="h-[3rem]  flex items-center mb-[1.5rem]">
+                            <img id="location" src="/images/location.png" alt="location" class="md:hidden">
+                            <img src="./images/locationWhite.svg" alt="location" class="hidden md:block">
+                            <input id="location" type="text" placeholder="Where are you now?" class="h-full lg:w-full ml-2 bg-[#E0B100] md:bg-transparent border-b border-black placeholder:text-black md:placeholder:text-white md:text-white md:border-white  outline-none">
+                        </div>
+                    </div>
+                    
+                    <div class="lg:w-[25.1rem] ">
+                        <label class="text-black md:text-white text-[1rem] font-[600] leading-[1.5rem] " for="date" class="text-black md:text-white text-[1rem] font-[600] leading-[1.5rem]">Date</label>
+                    <div class="h-[3rem] flex items-center mb-[1.5rem]">
+                        <img id="date" src="/images/date.png" alt="date" class="md:hidden">
+                        <img src="./images/dateWhite.svg" alt="date" class="hidden md:block">
+                        <input type="date" placeholder="When are you leaving?" class="h-full lg:w-full ml-2 bg-[#E0B100] md:bg-transparent border-b border-black placeholder:text-black outline-none md:placeholder:text-white md:text-white md:border-white ">
+                    </div>
+                    </div>
+                    <div class="lg:w-[25.1rem]">
+                        <label for="destination" class="text-black md:text-white text-[1rem] font-[600] leading-[1.5rem] ">Arrival Airport</label>
+                    <div class="h-[3rem]  flex items-center mb-[1.5rem]">
+                        <img id="destination" src="/images/location.png" alt="destination" class="md:hidden">
+                        <img src="./images/locationWhite.svg" alt="destination" class="hidden md:block">
+                        <input type="text" placeholder="Where are you going?" class="h-full lg:w-full ml-2 bg-[#E0B100] md:bg-transparent border-b border-black placeholder:text-black outline-none md:placeholder:text-white md:text-white md:border-white ">
+                    </div>
+                    </div>
+                    <div class="lg:w-[25.1rem]">
+                        <label for="passengers" class="text-black md:text-white text-[1rem] font-[600] leading-[1.5rem] ">Travellers</label>
+                    <div class="h-[3rem] flex items-center">
+                        <img id="passengers" src="/images/passengers.png" alt="passengers" class="md:hidden">
+                        <img src="./images/passengersWhite.svg" alt="passengers" class="hidden md:block">
+                        <input type="text" placeholder="Number of passengers" class="h-full lg:w-full ml-2 bg-[#E0B100] md:bg-transparent border-b border-black placeholder:text-black outline-none md:placeholder:text-white md:text-white md:border-white ">
+                    </div>
+                    </div>
+                </form>
+                <button class="bg-[#E0B100] md:bg-transparent mt-8 py-[.3rem] px-[1.5rem] block mx-auto md:mx-0 md:ml-auto rounded-[1.5rem] text-black md:text-white border border-black md:border-[#E0B100] hover:bg-black hover:text-[#E0B100] duration-[.5s]">Search Your Flight</button>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section class="mt-4 p-4 lg:flex items-start justify-between">
+           <div>
+            <h1 class="text-[#141E38] text-[3rem] lg:w-[25rem] font-[600] md:p-4">Top Destinations</h1>
+            <p class="text-[#141E38] md:p-4 lg:w-[25rem]">Dui in in orci fermentum a. Maecenas nunc id ut auctor curabitur pellentesque id et tristique. Pellentesque et a nisl aliquam eget. Nam velit duis in mauris arcu vivamus amet turpis in. In bibendum placerat quam ullamcorper accumsan felis. Velit vitae pellentesque sagittis et consequat sit donec. Donec aenean vivamus ullamcorper urna aliquet faucibus lacus aliquet.</p>
+            <button class="bg-[#E0B100] px-[2.5rem] py-[.8rem] rounded-[1.5rem] block  mt-[2rem] md:ml-4">Discover More</button>
+           </div>
+           <div class="md:flex md:flex-wrap max-w-[60rem]">
+             <!-- !Destination 1 -->
+             <article class="w-max mx-auto mt-4 mb-4">
+                <div>
+                    <img src="/images/dest1.png" alt="Tokyo">
+                </div>
+                <div class="flex justify-between items-center"d>
+                    <div class="flex flex-col">
+                        <span>Tokyo, 
+                            <span>Japan</span>
+                        </span>
+                        <span>Rs. 24,000 onwards</span>
+                    </div>
+                    <div class="w-max h-max p-1 border border-[#E0B100] rounded-full">
+                        <img src="./images/littleAirplane.png" alt="Airplane">
+                    </div>
+
+                </div>
+                
+            </article>
+
+            <!-- !Destination 2 -->
+            <article class="w-max mx-auto mt-4 mb-4">
+                <div>
+                    <img src="/images/dest2.png" alt="Tokyo">
+                </div>
+                <div class="flex justify-between items-center"d>
+                    <div class="flex flex-col">
+                        <span>Tokyo, 
+                            <span>Japan</span>
+                        </span>
+                        <span>Rs. 24,000 onwards</span>
+                    </div>
+                    <div class="w-max h-max p-1 border border-[#E0B100] rounded-full">
+                        <img src="./images/littleAirplane.png" alt="Airplane">
+                    </div>
+
+                </div>
+                
+            </article>
+
+            <!-- !Destination 3 -->
+            <article class="w-max mx-auto mt-4 mb-4">
+                <div>
+                    <img src="/images/dest3.png" alt="Tokyo">
+                </div>
+                <div class="flex justify-between items-center"d>
+                    <div class="flex flex-col">
+                        <span>Tokyo, 
+                            <span>Japan</span>
+                        </span>
+                        <span>Rs. 24,000 onwards</span>
+                    </div>
+                    <div class="w-max h-max p-1 border border-[#E0B100] rounded-full">
+                        <img src="./images/littleAirplane.png" alt="Airplane">
+                    </div>
+
+                </div>
+                
+            </article>
+            
+            <!-- !Destination 4 -->
+            <article class="w-max mx-auto mt-4 mb-4">
+                <div>
+                    <img src="/images/dest4.png" alt="Tokyo">
+                </div>
+                <div class="flex justify-between items-center"d>
+                    <div class="flex flex-col">
+                        <span>Tokyo, 
+                            <span>Japan</span>
+                        </span>
+                        <span>Rs. 24,000 onwards</span>
+                    </div>
+                    <div class="w-max h-max p-1 border border-[#E0B100] rounded-full">
+                        <img src="./images/littleAirplane.png" alt="Airplane">
+                    </div>
+
+                </div>
+                
+            </article>
+           
+            <!-- !Destination 5 -->
+            <article class="w-max mx-auto mt-4 mb-4">
+                <div>
+                    <img src="./images/dest6.png" alt="Tokyo">
+                </div>
+                <div class="flex justify-between items-center">
+                    <div class="flex flex-col">
+                        <span>Tokyo, 
+                            <span>Japan</span>
+                        </span>
+                        <span>Rs. 24,000 onwards</span>
+                    </div>
+                    <div class="w-max h-max p-1 border border-[#E0B100] rounded-full">
+                        <img src="./images/littleAirplane.png" alt="Airplane">
+                    </div>
+
+                </div>
+                
+            </article>
+
+            <!-- !Destination 6 -->
+            <article class="w-max mx-auto mt-4 mb-4">
+                <div>
+                    <img src="/images/dest7.png" alt="Tokyo">
+                </div>
+                <div class="flex justify-between items-center"d>
+                    <div class="flex flex-col">
+                        <span>Tokyo, 
+                            <span>Japan</span>
+                        </span>
+                        <span>Rs. 24,000 onwards</span>
+                    </div>
+                    <div class="w-max h-max p-1 border border-[#E0B100] rounded-full">
+                        <img src="./images/littleAirplane.png" alt="Airplane">
+                    </div>
+
+                </div>
+                
+            </article>
+           </div>
+        </section>
+
+        <section class="bg-[#141E38]  lg:bg-transparent text-white lg:text-[rgb(20,30,56)] p-2 md:p-4">
+           <div class="lg:w-max lg:ml-auto">
+            <h1 class="text-[2.5rem] font-[600]">We offer Best Services</h1>
+
+            <button class="bg-[#E0B100] px-[2.5rem] py-[.8rem] rounded-[1.5rem] block  mt-[1rem] md:ml-4 lg:ml-auto">Learn More</button>
+           </div>
+
+           <div class="lg:w-[43rem]">
+            <ol class="mt-4 pb-2">
+                <li class="flex  mb-[2.3rem]">
+                    <div class="text-[2rem] font-[600] mr-[2.5rem]">
+                        01
+                    </div>
+
+                    <div>
+                    <h2 class="text-[1.5rem] font-[600]">Instant Ticket</h2>
+                    <p>Eu scelerisque amet amet malesuada id ultrices morbi. Vitae purus mauris hac nisi habitasse donec. Vitae integer massa in blandit.</p>
+                    </div>
+                </li>
+                <li class="flex mb-[2.3rem]">
+                   <div class="text-[2rem] font-[600] mr-[2.5rem]">
+                    02
+                   </div>
+                   <div>
+                    <h2 class="text-[1.5rem] font-[600]">World flight</h2>
+                    <p>Eu scelerisque amet amet malesuada id ultrices morbi. Vitae purus mauris hac nisi habitasse donec. Vitae integer massa in blandit.</p>
+                   </div>
+                </li>
+                <li class="flex">
+                   <div class="text-[2rem] font-[600] mr-[2.5rem]">
+                    03
+                   </div>
+                   
+                   <div>
+                    <h2 class="text-[1.5rem] font-[600]">Trusted Booking</h2>
+                    <p>Eu scelerisque amet amet malesuada id ultrices morbi. Vitae purus mauris hac nisi habitasse donec. Vitae integer massa in blandit.</p>
+                   </div>
+                </li>
+            </ol>
+           </div>
+
+            <div class="hidden lg:block mt-4 lg:w-max lg:ml-auto relative bottom-[20rem]">
+                <img src="./images/Illustration.svg" alt="illustration">
+            </div>
+        </section>
+
+        <section class="p-4 bg-[#E0B100] md:w-11/12 max-w-[90rem] lg:px-[10rem] lg:py-[8rem]  md:rounded-[2.5rem] md:mx-auto md:mt-4">
+            <h1 class="text-[#141E38]  lg:w-[65rem] text-[2.5rem] font-[600] md:text-center">Subscribe to Get notified about Latest Deals & Offers</h1>
+            <p class="text-center text-[#141E28] font-[400] md:w-[30rem] lg:w-[42rem] md:mx-auto md:mt-[1rem]">Eu scelerisque amet amet malesuada id ultrices morbi. Vitae purus mauris hac nisi habitasse donec. Vitae integer massa in blandit.</p>
+
+            <div class="md:flex lg:items-center lg:justify-between md:w-max lg:w-[42rem] lg:p-[2.5rem] md:mx-auto md:mt-4 lg:mt-[2.5rem] md:bg-white md:p-[1.5rem] md:rounded-[2.5rem]">
+                <div class="h-[3rem] lg:w-[25rem] flex items-center  mb-[1.5rem] border-b border-black">
+                    <img id="date" src="/images/email.png" alt="date">
+                    <input type="email" placeholder="Email Address" class="h-full lg:w-full ml-2 bg-[#E0B100] md:bg-transparent placeholder:text-black md:placeholder:text-[#141E3866] outline-none">
+                </div>
+    
+                <button class="h-[3rem] bg-black md:bg-[#E0B100] border  border-[#E0B100] rounded-[1.5rem] text-white md:text-black px-[2.5rem]">Subscribe</button>
+            </div>
+        </section>
+
+        <footer class="p-8">
+            <div class="w-max mx-auto">
+                <img src="./images/footerVector.svg" alt="logo">
+            </div>
+            <p class="mt-5 text-center text-[1.25rem font-[400] leading-[2rem]">Eu scelerisque amet amet malesuada id ultrices morbi. Vitae purus mauris hac nisi habitasse donec. Vitae integer massa in blandit.</p>
+
+            <div class="border-t border-b border-[#141E38] p-[2.5rem] mt-4">
+                <ul class="flex flex-col md:flex-row md:justify-evenly gap-[1.5rem]">
+                    <li class="text-[1.5rem] font-[600] leading-[1.5rem]"><a href="About.html">About</a></li>
+                    <li class="text-[1.5rem] font-[600] leading-[1.5rem]"><a href="Explore.html">Explore</a></li>
+                    <li class="text-[1.5rem] font-[600] leading-[1.5rem]"><a href="Bookings.html">Bookings</a></li>
+                    <li class="text-[1.5rem] font-[600] leading-[1.5rem]"><a href="Ticket.html">Find Ticket</a></li>
+                    <li class="text-[1.5rem] font-[600] leading-[1.5rem]"><a href="Contact.html">Contact Us</a></li>  
+                </ul>
+            </div>
+        </footer>
+    </main>
+</body>
+</html>
